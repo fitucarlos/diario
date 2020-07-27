@@ -82,15 +82,18 @@ main{
 }
 
 .menu li a{
+    font-size: 0.8em;
+    margin: auto;
     display: block;
     padding: 13px;
-    width: 120px;
+    width: 90px;
     background-color: rosybrown;
     margin: 10px;
     border-radius: 10px;
     text-decoration: none;
     color: teal;
     text-align: center
+    
 }
 
 
