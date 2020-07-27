@@ -52,7 +52,8 @@ main{
 /*NAV*/
 
 .header-menu{
-    max-width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 #btn-menu{
@@ -73,10 +74,12 @@ main{
 }
 
 .menu ul{
-    margin: 0;
     list-style: none;
     padding: 0;
-    display:flex;
+    display:block;
+    display: flex;
+    justify-content: center;
+ 
 
 
 }
@@ -239,10 +242,9 @@ footer h2{
     color: white;
 }
 
-/* @media screen and (min-width: 800px){
-    .content1{
-        display: flex;
-       
+/* @media screen and (in-width: 400px){
+    .header-menu{
+        margin-left: 1px;       
 
     }
 
