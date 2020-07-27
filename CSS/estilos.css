@@ -90,10 +90,10 @@ main{
 .button-leer{
     width: 200px;
     padding: 16px;
-    border: 1px solid #5F4F94;
     border-radius: 10px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 3px;
     display: block;
     text-decoration: none;
     background-color: rosybrown;
@@ -140,11 +140,12 @@ main{
 /*FOOTER*/
 footer{
 
-    max-width: 1000px;
+    max-width: 300px;
     background-color: whitesmoke;
     border-radius: 8px;
     margin: auto;
     margin-top: 10px;
+    margin-left: initial;
     
 }
 footer li{
@@ -158,6 +159,19 @@ footer li{
     margin-right: 5px;
     margin-top: 2px;
 }
+.boton-redes{
+    text-decoration: none;
+    color: teal;
+    text-align: center;
+}
+footer h2{
+    margin-top: 40px;
+    font-weight: 100;
+    color: teal;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
 
 /* @media screen and (min-width: 800px){
     .content1{
